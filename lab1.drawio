@@ -16,7 +16,7 @@
         <mxCell id="RwbIdz6LGd90N_nzUWjb-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-2" target="RwbIdz6LGd90N_nzUWjb-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Инспектор МВД&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=middle;verticalAlign=middle;html=1;outlineConnect=0;labelPosition=right;align=left;" vertex="1" parent="1">
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Инспектор МВД&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;outlineConnect=0;labelPosition=center;align=center;" vertex="1" parent="1">
           <mxGeometry x="645" y="410" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RwbIdz6LGd90N_nzUWjb-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-3" target="RwbIdz6LGd90N_nzUWjb-23">
