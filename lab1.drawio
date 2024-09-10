@@ -1,32 +1,46 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
   <diagram name="Страница — 1" id="hDQKMBxuKBG5lj5dk2z1">
-    <mxGraphModel dx="457" dy="230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-2" target="RwbIdz6LGd90N_nzUWjb-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-2" target="RwbIdz6LGd90N_nzUWjb-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RwbIdz6LGd90N_nzUWjb-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Инспектор МВД&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="120" width="20" height="40" as="geometry" />
+          <mxGeometry x="500" y="530" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-3" target="RwbIdz6LGd90N_nzUWjb-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RwbIdz6LGd90N_nzUWjb-3" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="340" width="20" height="40" as="geometry" />
+          <mxGeometry x="215" y="390" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-5" value="Администратор базы данных" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="220" width="30" height="60" as="geometry" />
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-5" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Администратор базы данных&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Добавить пользователя&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelPosition=left;verticalLabelPosition=middle;align=right;" vertex="1" parent="1">
-          <mxGeometry x="109.5" y="70" width="46.5" height="20" as="geometry" />
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-16" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Авторизация&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-9" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Удалить пользователя&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=middle;labelPosition=left;verticalLabelPosition=middle;align=right;" vertex="1" parent="1">
-          <mxGeometry x="110" y="180" width="46" height="20" as="geometry" />
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-17" target="RwbIdz6LGd90N_nzUWjb-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RwbIdz6LGd90N_nzUWjb-16" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="250" width="50" height="20" as="geometry" />
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Авторизация сотрудника ГИБДД&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-23" target="RwbIdz6LGd90N_nzUWjb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-31" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RwbIdz6LGd90N_nzUWjb-30">
+          <mxGeometry x="0.1379" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-23" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Запрос данных из базы ГИБДД&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="RwbIdz6LGd90N_nzUWjb-24" target="RwbIdz6LGd90N_nzUWjb-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RwbIdz6LGd90N_nzUWjb-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Авторизация частного лица&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="300" y="610" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
