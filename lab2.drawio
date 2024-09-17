@@ -14,7 +14,7 @@
           <mxGeometry x="872.5" y="577.5" width="190" height="225" as="geometry" />
         </mxCell>
         <mxCell id="XNurfVl0-IxBrmBoWmV6-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;VehicleCategory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- category: String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getCategory(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1220" y="675" width="160" height="95" as="geometry" />
+          <mxGeometry x="1230" y="642.5" width="160" height="95" as="geometry" />
         </mxCell>
         <mxCell id="XNurfVl0-IxBrmBoWmV6-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XNurfVl0-IxBrmBoWmV6-0" target="XNurfVl0-IxBrmBoWmV6-1">
           <mxGeometry width="160" relative="1" as="geometry">
