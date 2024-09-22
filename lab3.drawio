@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="840" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,14 @@
         <mxCell id="toF6DUzOsAVb2HzZ0KT--2" value="Меню игры" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="410" y="285" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--4" target="toF6DUzOsAVb2HzZ0KT--73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--89" value="Прошел один игровой кадр" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--76">
+          <mxGeometry x="0.1924" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--4" value="Игра" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="645" width="150" height="40" as="geometry" />
         </mxCell>
@@ -26,19 +34,21 @@
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--19" value="Нажата кнопка &quot;Таблица лидеров&quot;&lt;div&gt;[Имеется хотя бы один результат]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--18">
           <mxGeometry x="0.1616" y="4" relative="1" as="geometry">
-            <mxPoint x="4" y="8" as="offset" />
+            <mxPoint x="4" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--7" target="toF6DUzOsAVb2HzZ0KT--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--47" value="Нажата кнопка &quot;Новая игра&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--46">
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--47" value="Нажата кнопка &quot;Новая игра&quot;&lt;div&gt;Число очков = 0&lt;/div&gt;&lt;div&gt;Множитель = 1&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--46">
           <mxGeometry x="-0.1251" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--7" target="toF6DUzOsAVb2HzZ0KT--12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--7" target="toF6DUzOsAVb2HzZ0KT--31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="305" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--72" value="Нажата кнопка&lt;div&gt;&quot;Выход из игры&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--70">
           <mxGeometry x="-0.005" y="1" relative="1" as="geometry">
@@ -50,9 +60,6 @@
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--2" target="toF6DUzOsAVb2HzZ0KT--7">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--12" value="Выход из игры" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="870" y="285" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--17" target="toF6DUzOsAVb2HzZ0KT--2">
           <mxGeometry relative="1" as="geometry" />
@@ -66,13 +73,10 @@
           <mxGeometry x="615" y="70" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="285" width="40" height="40" as="geometry" />
+          <mxGeometry x="940" y="285" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="295" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--12" target="toF6DUzOsAVb2HzZ0KT--31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="950" y="295" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--51" target="toF6DUzOsAVb2HzZ0KT--2">
           <mxGeometry relative="1" as="geometry">
@@ -83,29 +87,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--66" value="Игрок умер&amp;nbsp;&lt;div&gt;[Набранное количество очков &amp;lt; Топ 10]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--65">
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--66" value="&lt;div&gt;[Число очков &amp;lt; Топ 10]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--65">
           <mxGeometry x="-0.0992" relative="1" as="geometry">
-            <mxPoint x="-50" y="-70" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--51" target="toF6DUzOsAVb2HzZ0KT--4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="480" y="705" />
-              <mxPoint x="685" y="705" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--71" value="Игрок жив" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--68">
-          <mxGeometry x="-0.1924" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="455" y="640" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--4" target="toF6DUzOsAVb2HzZ0KT--51">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--53" target="toF6DUzOsAVb2HzZ0KT--2">
           <mxGeometry relative="1" as="geometry" />
@@ -124,13 +112,66 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--56" value="Игрок умер&lt;div&gt;&amp;nbsp;[Набраное количество очков &amp;gt;= Топ 10]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--55">
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--56" value="&lt;div&gt;&amp;nbsp;[Число очков &amp;gt;= Топ 10]&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--55">
           <mxGeometry x="-0.1893" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--12" target="toF6DUzOsAVb2HzZ0KT--12">
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945" y="325" as="sourcePoint" />
+            <mxPoint x="945" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--73" value="Игровая итерация" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="790" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--73" target="toF6DUzOsAVb2HzZ0KT--51">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--88" value="Есть коллизия со&amp;nbsp;&lt;div&gt;смертельными объектами&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--87">
+          <mxGeometry x="-0.0949" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--90" target="toF6DUzOsAVb2HzZ0KT--97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--100" value="Нет коллизии с объектами множителями" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--98">
+          <mxGeometry x="-0.124" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--90" target="toF6DUzOsAVb2HzZ0KT--101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--105" value="Есть коллизия с&amp;nbsp;&lt;div&gt;объектом множителем&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--103">
+          <mxGeometry x="-0.6302" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--90" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="785" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--73" target="toF6DUzOsAVb2HzZ0KT--90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--106" value="Нет коллизии со&amp;nbsp;&lt;div&gt;смертельными&lt;div&gt;объектами&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="toF6DUzOsAVb2HzZ0KT--93">
+          <mxGeometry x="-0.1639" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--97" target="toF6DUzOsAVb2HzZ0KT--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--97" value="Число очков += Множитель" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="867.5" y="645" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="toF6DUzOsAVb2HzZ0KT--101" target="toF6DUzOsAVb2HzZ0KT--97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--101" value="Множитель = объект множетиль" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="720" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
