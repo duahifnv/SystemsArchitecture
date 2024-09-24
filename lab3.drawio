@@ -208,7 +208,7 @@
           <mxGeometry x="609.5" y="112.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="600" y="240" width="30" height="30" as="geometry" />
+          <mxGeometry x="612" y="250" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-19" target="ULfB6ViQABaX743I7LTK-24">
           <mxGeometry relative="1" as="geometry" />
