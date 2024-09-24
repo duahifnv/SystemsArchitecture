@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="2333" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,22 +169,19 @@
         <mxCell id="ULfB6ViQABaX743I7LTK-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="160" y="110" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-6" target="ULfB6ViQABaX743I7LTK-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-12" value="Ошибка установки/&lt;div&gt;Выход из установщика&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-11">
-          <mxGeometry x="0.0581" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-6" target="ULfB6ViQABaX743I7LTK-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-6" target="ULfB6ViQABaX743I7LTK-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="445" y="220" />
+              <mxPoint x="240" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-6" value="Установка игры" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="110" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="430" y="260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-14" target="ULfB6ViQABaX743I7LTK-15">
           <mxGeometry relative="1" as="geometry" />
@@ -247,6 +244,82 @@
               <mxPoint x="810" y="805" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-36" target="ULfB6ViQABaX743I7LTK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-45" value="Пользователь выбрал&amp;nbsp;&lt;div&gt;путь установки&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-44">
+          <mxGeometry x="0.1875" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-36" target="ULfB6ViQABaX743I7LTK-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="400" />
+              <mxPoint x="340" y="400" />
+              <mxPoint x="340" y="480" />
+              <mxPoint x="265" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-49" value="Пользователь не&amp;nbsp;&lt;div&gt;выбрал путь установки/Вывести ошибку&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-48">
+          <mxGeometry x="0.3212" relative="1" as="geometry">
+            <mxPoint x="102" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-36" value="Окно установщика" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-41" target="ULfB6ViQABaX743I7LTK-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-52" value="Ошибка во время установки /&lt;div&gt;Вывести ошибку&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-51">
+          <mxGeometry x="0.1037" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-41" target="ULfB6ViQABaX743I7LTK-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="730" />
+              <mxPoint x="500" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-41" value="Окно отображения прогресса установки" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="620" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-50" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="625" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-53" target="ULfB6ViQABaX743I7LTK-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-53" value="Установка системных&lt;div&gt;файлов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="800" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-54" target="ULfB6ViQABaX743I7LTK-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-54" value="Установка текстур" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="880" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-55" target="ULfB6ViQABaX743I7LTK-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-55" value="Установка игровых звуков" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="960" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-56" target="ULfB6ViQABaX743I7LTK-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-56" value="Установка игровых моделей" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1040" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-57" value="Установка игровых скриптов" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1120" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
