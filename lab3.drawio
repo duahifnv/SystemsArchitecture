@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="1167" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2305" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -288,6 +288,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-70" value="Все готово к установке" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-58">
+          <mxGeometry x="-0.2216" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-41" target="ULfB6ViQABaX743I7LTK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="680" />
+              <mxPoint x="80" y="680" />
+              <mxPoint x="80" y="180" />
+              <mxPoint x="418" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-68" value="Установка завершилась успешно" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-67">
+          <mxGeometry x="-0.7983" relative="1" as="geometry">
+            <mxPoint x="-43" y="-260" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-41" value="Окно отображения прогресса установки" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="170" y="620" width="140" height="40" as="geometry" />
         </mxCell>
@@ -317,6 +337,15 @@
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-56" value="Установка игровых моделей" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="1040" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-57" target="ULfB6ViQABaX743I7LTK-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="1140" />
+              <mxPoint x="680" y="680" />
+              <mxPoint x="275" y="680" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-57" value="Установка игровых скриптов" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="1120" width="140" height="40" as="geometry" />
