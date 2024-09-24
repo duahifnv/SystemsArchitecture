@@ -1,20 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="1000" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="2333" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="toF6DUzOsAVb2HzZ0KT--1" target="toF6DUzOsAVb2HzZ0KT--2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="870" y="805" />
-              <mxPoint x="870" y="805" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="830" y="785" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--2" value="Меню игры" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="930" y="785" width="140" height="40" as="geometry" />
         </mxCell>
@@ -45,9 +34,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="toF6DUzOsAVb2HzZ0KT--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="toF6DUzOsAVb2HzZ0KT--7" target="ULfB6ViQABaX743I7LTK-23" edge="1">
+        <mxCell id="toF6DUzOsAVb2HzZ0KT--70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="toF6DUzOsAVb2HzZ0KT--7" target="ULfB6ViQABaX743I7LTK-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1460" y="805" as="targetPoint" />
+            <mxPoint x="1382.5" y="160" as="targetPoint" />
+            <mxPoint x="1590" y="814.9411764705881" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1383" y="805" />
+              <mxPoint x="1383" y="410" />
+              <mxPoint x="973" y="410" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--72" value="Нажата кнопка&lt;div&gt;&quot;Выход из игры&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="toF6DUzOsAVb2HzZ0KT--70" vertex="1" connectable="0">
@@ -185,7 +180,7 @@
         <mxCell id="ULfB6ViQABaX743I7LTK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-6" target="ULfB6ViQABaX743I7LTK-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-6" value="Установка игры &quot;Тетрис&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ULfB6ViQABaX743I7LTK-6" value="Установка игры" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="110" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-10" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -231,20 +226,27 @@
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-29" value="Пользователь вышел&lt;div&gt;из игры&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ULfB6ViQABaX743I7LTK-28">
           <mxGeometry x="0.2251" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-24" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-19" value="Запуск игры &quot;Тетрис&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ULfB6ViQABaX743I7LTK-19" value="Работа игры" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="110" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ULfB6ViQABaX743I7LTK-23" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="790" width="30" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-24" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="930" y="260" width="30" height="30" as="geometry" />
+          <mxGeometry x="985" y="40" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-27" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="115" width="30" height="30" as="geometry" />
+          <mxGeometry x="1220" y="115" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ULfB6ViQABaX743I7LTK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-19" target="toF6DUzOsAVb2HzZ0KT--2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="804.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="190" />
+              <mxPoint x="810" y="190" />
+              <mxPoint x="810" y="805" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
