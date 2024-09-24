@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="xHwK_b2retfKlfM4JfdF">
-    <mxGraphModel dx="724" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,14 +23,26 @@
           <mxGeometry x="45" y="90" width="10" height="290" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-12" value="Водитель:&lt;div&gt;Driver&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
-          <mxGeometry x="440" y="180" width="100" height="200" as="geometry" />
+          <mxGeometry x="630" y="210" width="100" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-13" value="Управление водителями:&lt;div&gt;DriverDAO&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
           <mxGeometry x="720" y="110" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-20" value="получить_доступ()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-19" parent="1" source="ZmueGVc2QgfomNV0Ne6T-15">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-20" value="new()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-19" parent="1" source="ZmueGVc2QgfomNV0Ne6T-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-32" value="Сервер базы данных" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
+          <mxGeometry x="45" y="90" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-35" value="connect(address, params)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="305" y="180" as="sourcePoint" />
+            <mxPoint x="495" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
