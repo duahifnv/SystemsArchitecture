@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="2305" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1313" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
           <mxGeometry x="609.5" y="112.5" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="612" y="260" width="30" height="30" as="geometry" />
+          <mxGeometry x="615.16" y="180.32999999999998" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-19" target="ULfB6ViQABaX743I7LTK-24">
           <mxGeometry relative="1" as="geometry" />
@@ -255,12 +255,12 @@
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-36" target="ULfB6ViQABaX743I7LTK-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="440" as="targetPoint" />
+            <mxPoint x="423.16" y="360.33000000000004" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="240" y="400" />
-              <mxPoint x="340" y="400" />
-              <mxPoint x="340" y="480" />
-              <mxPoint x="265" y="480" />
+              <mxPoint x="270" y="320" />
+              <mxPoint x="343" y="320" />
+              <mxPoint x="343" y="400" />
+              <mxPoint x="268" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -270,7 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-36" value="Окно установщика" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="190" y="420" width="100" height="40" as="geometry" />
+          <mxGeometry x="193.16" y="340.33000000000004" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-41" target="ULfB6ViQABaX743I7LTK-50">
           <mxGeometry relative="1" as="geometry" />
@@ -283,8 +283,8 @@
         <mxCell id="ULfB6ViQABaX743I7LTK-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-41" target="ULfB6ViQABaX743I7LTK-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="730" />
-              <mxPoint x="500" y="730" />
+              <mxPoint x="243.16" y="650.33" />
+              <mxPoint x="503.16" y="650.33" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -309,46 +309,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-41" value="Окно отображения прогресса установки" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="170" y="620" width="140" height="40" as="geometry" />
+          <mxGeometry x="173.16" y="540.33" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-50" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="540" y="625" width="30" height="30" as="geometry" />
+          <mxGeometry x="543.16" y="545.33" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-53" target="ULfB6ViQABaX743I7LTK-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-53" value="Установка системных&lt;div&gt;файлов&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="800" width="140" height="40" as="geometry" />
+          <mxGeometry x="433.16" y="720.33" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-54" target="ULfB6ViQABaX743I7LTK-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-54" value="Установка текстур" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="880" width="140" height="40" as="geometry" />
+          <mxGeometry x="433.16" y="800.33" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-55" target="ULfB6ViQABaX743I7LTK-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-55" value="Установка игровых звуков" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="960" width="140" height="40" as="geometry" />
+          <mxGeometry x="433.16" y="880.33" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-56" target="ULfB6ViQABaX743I7LTK-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-56" value="Установка игровых моделей" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1040" width="140" height="40" as="geometry" />
+          <mxGeometry x="433.16" y="960.33" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ULfB6ViQABaX743I7LTK-57" target="ULfB6ViQABaX743I7LTK-41">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="1140" />
-              <mxPoint x="680" y="680" />
-              <mxPoint x="275" y="680" />
+              <mxPoint x="683.16" y="1060.33" />
+              <mxPoint x="683.16" y="600.33" />
+              <mxPoint x="278.16" y="600.33" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ULfB6ViQABaX743I7LTK-57" value="Установка игровых скриптов" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1120" width="140" height="40" as="geometry" />
+          <mxGeometry x="433.16" y="1040.33" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
