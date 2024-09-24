@@ -4,67 +4,117 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-6" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;ГАИ ГИБДД&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=60;" vertex="1" parent="1">
-          <mxGeometry x="90" y="60" width="30" height="420" as="geometry" />
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-6" value="ГАИ ГИБДД" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=60;" vertex="1" parent="1">
+          <mxGeometry x="80" y="60" width="30" height="760" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-6">
-          <mxGeometry x="10" y="70" width="10" height="310" as="geometry" />
+          <mxGeometry x="10" y="70" width="10" height="630" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-27" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-6">
-          <mxGeometry x="5" y="400" width="20" height="20" as="geometry" />
+          <mxGeometry x="5" y="600" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-10" value="Транспорт:&lt;div&gt;Vehicle&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
-          <mxGeometry x="850" y="310" width="100" height="200" as="geometry" />
+          <mxGeometry x="410" y="240" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-57" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-10">
+          <mxGeometry x="45" y="80" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-11" value="Управление транспортом:&lt;div&gt;VehicleDAO&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
-          <mxGeometry x="250" y="60" width="100" height="400" as="geometry" />
+          <mxGeometry x="240" y="60" width="100" height="710" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-11">
-          <mxGeometry x="45" y="70" width="10" height="290" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-11">
+          <mxGeometry x="45" y="280" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-11">
+          <mxGeometry x="45" y="370" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-12" value="Водитель:&lt;div&gt;Driver&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
-          <mxGeometry x="580" y="680" width="100" height="200" as="geometry" />
+          <mxGeometry x="710" y="720" width="100" height="200" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-13" value="Управление водителями:&lt;div&gt;DriverDAO&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
-          <mxGeometry x="430" y="620" width="100" height="300" as="geometry" />
+          <mxGeometry x="720" y="970" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-20" value="new()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-19" parent="1">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-20" value="new() &amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;startSize=8;curved=0;rounded=0;startFill=0;dashed=1;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-19" parent="1" source="ZmueGVc2QgfomNV0Ne6T-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="110" y="139.9999999999999" as="sourcePoint" />
             <mxPoint x="295" y="139.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="140" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-32" value="Сервер базы данных" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=60;" vertex="1" parent="1">
-          <mxGeometry x="460" y="60" width="100" height="400" as="geometry" />
+          <mxGeometry x="580" y="60" width="100" height="570" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
-          <mxGeometry x="45" y="110" width="10" height="10" as="geometry" />
+          <mxGeometry x="45" y="110" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-44" value="connect(address, params)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-43" parent="1" source="ZmueGVc2QgfomNV0Ne6T-11">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-68" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
+          <mxGeometry x="45" y="330" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-44" value="connect(address, params)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-43" parent="1" source="ZmueGVc2QgfomNV0Ne6T-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="175" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-45" value="return new Connection" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" source="ZmueGVc2QgfomNV0Ne6T-51" parent="1" target="ZmueGVc2QgfomNV0Ne6T-15">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-45" value="return new Connection" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" source="ZmueGVc2QgfomNV0Ne6T-32" parent="1" target="ZmueGVc2QgfomNV0Ne6T-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="245" as="targetPoint" />
-            <mxPoint x="480" y="230" as="sourcePoint" />
+            <mxPoint x="110" y="220" as="targetPoint" />
+            <mxPoint x="480" y="220" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="600" y="230" />
+              <mxPoint x="340" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-48" value="Соединение с&amp;nbsp;&lt;div&gt;базой данных&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
-          <mxGeometry x="650" y="120" width="100" height="300" as="geometry" />
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-58" value="new(vehicle_params)&lt;div&gt;&amp;lt;&amp;lt;create&amp;gt;&amp;gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;dashed=1;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-15" target="ZmueGVc2QgfomNV0Ne6T-10">
+          <mxGeometry x="-0.2694" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="359.99999999999994" as="sourcePoint" />
+            <mxPoint x="419.5000000000002" y="359.99999999999994" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-48">
-          <mxGeometry x="45" y="50" width="10" height="70" as="geometry" />
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-62" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-15" target="ZmueGVc2QgfomNV0Ne6T-57">
+          <mxGeometry x="-0.0769" y="-20" width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="270" as="sourcePoint" />
+            <mxPoint x="299.5000000000002" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-50" value="new_connection()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-43" target="ZmueGVc2QgfomNV0Ne6T-51">
-          <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="509.66666666666674" y="180" as="sourcePoint" />
-            <mxPoint x="630" y="180" as="targetPoint" />
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-64" value="add_vehicle(Vehicle)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZmueGVc2QgfomNV0Ne6T-62">
+          <mxGeometry x="0.2027" y="2" relative="1" as="geometry">
+            <mxPoint x="-15" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-67" value="return Vehicle" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-57" target="ZmueGVc2QgfomNV0Ne6T-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="369.58" as="sourcePoint" />
+            <mxPoint x="350" y="369.58" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-69" value="SQL_INSERT(Vehicle.params)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-68" parent="1" source="ZmueGVc2QgfomNV0Ne6T-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-70" value="return INSERT_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" source="ZmueGVc2QgfomNV0Ne6T-68" parent="1" target="ZmueGVc2QgfomNV0Ne6T-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-73" value="return INSERT_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-71" target="ZmueGVc2QgfomNV0Ne6T-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="450" as="targetPoint" />
+            <mxPoint x="290" y="460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
