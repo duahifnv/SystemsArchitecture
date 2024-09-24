@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="Ydu8hA1k79PsBjOJQxxA">
-    <mxGraphModel dx="1313" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--72" value="Нажата кнопка&lt;div&gt;&quot;Выход из игры&quot;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="toF6DUzOsAVb2HzZ0KT--70" vertex="1" connectable="0">
           <mxGeometry x="-0.005" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-76" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="toF6DUzOsAVb2HzZ0KT--7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
