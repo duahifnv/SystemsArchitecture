@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Страница — 1" id="xHwK_b2retfKlfM4JfdF">
-    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,9 @@
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-94" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-11">
           <mxGeometry x="45" y="710" width="10" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-110" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-11">
+          <mxGeometry x="45" y="960" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-12" value="Водитель:&lt;div&gt;Driver&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=40;" vertex="1" parent="1">
           <mxGeometry x="710" y="720" width="100" height="200" as="geometry" />
         </mxCell>
@@ -69,6 +72,19 @@
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-98" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
           <mxGeometry x="45" y="750" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-105" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
+          <mxGeometry x="-145" y="890" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-107" value="SQL_DELETE(vehicle_id)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="ZmueGVc2QgfomNV0Ne6T-32" source="ZmueGVc2QgfomNV0Ne6T-105" target="ZmueGVc2QgfomNV0Ne6T-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-140" y="925" as="sourcePoint" />
+            <mxPoint x="45" y="925" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-111" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZmueGVc2QgfomNV0Ne6T-32">
+          <mxGeometry x="45" y="920" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-44" value="connect(address, params)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="ZmueGVc2QgfomNV0Ne6T-43" parent="1" source="ZmueGVc2QgfomNV0Ne6T-19">
           <mxGeometry relative="1" as="geometry">
@@ -186,13 +202,13 @@
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-101" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="285" y="850" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-102" value="return INSERT_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-101" target="ZmueGVc2QgfomNV0Ne6T-15">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-102" value="return UPDATE_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-101" target="ZmueGVc2QgfomNV0Ne6T-15">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="885" as="targetPoint" />
             <mxPoint x="290" y="880" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZmueGVc2QgfomNV0Ne6T-100" value="return vehicle_params" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-98" target="ZmueGVc2QgfomNV0Ne6T-101">
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-100" value="return UPDATE_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-98" target="ZmueGVc2QgfomNV0Ne6T-101">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="845" as="targetPoint" />
             <mxPoint as="offset" />
@@ -200,6 +216,29 @@
         </mxCell>
         <mxCell id="ZmueGVc2QgfomNV0Ne6T-104" value="UPDATE" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="720" width="560" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-106" value="delete_vehicle(vehicle_id)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" target="ZmueGVc2QgfomNV0Ne6T-105" source="ZmueGVc2QgfomNV0Ne6T-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="950" as="sourcePoint" />
+            <mxPoint x="230" y="969.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-108" value="return DELETE_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-111" target="ZmueGVc2QgfomNV0Ne6T-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="1025" as="targetPoint" />
+            <mxPoint x="475" y="1025" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-109" value="return DELETE_STATUS" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ZmueGVc2QgfomNV0Ne6T-110" target="ZmueGVc2QgfomNV0Ne6T-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1055" as="targetPoint" />
+            <mxPoint x="280" y="1055" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZmueGVc2QgfomNV0Ne6T-112" value="DELETE" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="930" width="560" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
